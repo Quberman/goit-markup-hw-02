@@ -1,0 +1,113 @@
+:root {
+  --white-text: rgba(255, 255, 255, 1);
+  --white-text06: rgba(255, 255, 255, 0.6);
+  --black-text: rgba(33, 33, 33, 1);
+  --blue-hover: rgba(33, 150, 243, 1);
+  --grey-text: rgba(117, 117, 117, 1);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+li {
+  list-style-type: none;
+}
+
+.bcg-section {
+  background-color: rgba(47, 48, 58, 1);
+}
+
+.logo {
+  color: var(--blue-hover);
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logo-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
+.site-nav a {
+  color: var(--black-text);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--blue-hover);
+}
+.contacts {
+  color: var(--grey-text);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--blue-hover);
+}
+
+.site-nav .nav-text-s {
+  color: var(--blue-hover);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.title-text {
+  color: var(--black-text);
+}
+.hero-title,
+.btn-title,
+.a-title {
+  color: var(--white-text);
+}
+
+.btn-title {
+  background-color: rgba(33, 150, 243, 1);
+}
+.text {
+  color: var(--grey-text);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.p-text {
+  color: var(--grey-text);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+.addres,
+.a-title {
+  color: var(--white-text06);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}

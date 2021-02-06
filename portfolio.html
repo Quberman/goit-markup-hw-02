@@ -4,35 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="#"> <span>Web</span>Studio</a>
-            <ul>
-                <li><a href="#">Студия</a></li>
-                <li><a href="#">Портфолио</a></li>
-                <li><a href="#"> Контакты</a></li>
+            <a class="logo-text" href="./index.html"> <span class="logo" >Web</span>Studio</a>
+            <ul class="site-nav">
+                <li> <a href="./index.html">Студия</a></li>
+                <li> <a class="nav-text-s" href="./portfolio.html">Портфолио</a></li>
+                <li> <a href="#"> Контакты</a></li>
             </ul>
         </nav>
         <ul>
-            <li> <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="#">+380961111111</a></li>
+            <li> <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li> <a class="contacts" href="#">+380961111111</a></li>
         </ul>
-    
     </header>
-    <footer>
-        <h3>WebStudio</h3>
+    <section>
+        <!-- <h1>Портфолио</h1> -->
+        <ul>
+            <li>
+                <button class="btn">все</button>
+                <button class="btn">веб-саты</button>
+                <button class="btn">приложения</button>
+                <button class="btn">дизайн</button>
+                <button class="btn">маркетинг</button>
+            </li>
+            
+        </ul>
+        <ul>
+            <li>
+                <img src="./images/p.jpg" width="370" alt="ноутбук">
+                <h2 class="title">Технокряк</h2>
+                <p class="text">веб-сайт</p>
+            </li>
+            <li>
+                <img src="./images/p1.jpg" width="370" alt="баскет">
+                <h2 class="title">Постер New Orlean vs Golden Star</h2>
+                <p class="text">дизайн</p>
+            </li>
+            <li>
+                <img src="./images/p2.jpg" width="370" alt="ноутбук">
+                <h2 class="title">Ресторан Seafood</h2>
+                <p class="text">приложение</p>
+            </li>
+            <li>
+                <img src="./images/p3.jpg" width="370" alt="ноутбук">
+                <h2 class="title">Проект Prime</h2>
+                <p class="text">маркетинг</p>
+            </li>
+            <li>
+                <img src="./images/p4.jpg" width="370" alt="ноутбук">
+                <h2 class="title">Проект Boxes</h2>
+                <p class="text">приложения</p>
+            </li>
+            <li>
+                <img src="./images/p5.jpg" width="370" alt="ноутбук">
+                <h2 class="title">Inspiration has no Borders</h2>
+                <p class="text">веб-сайт</p>
+            </li>
+            <li>
+                <img src="./images/p6.jpg" width="370" alt="ноутбук">
+                <h2 class="title">Издание Limited Edition</h2>
+                <p class="text">дизайн</p>
+            </li>
+            <li>
+                <img src="./images/p7.jpg" width="370" alt="ноутбук">
+                <h2>Проект LAB</h2>
+                <p class="text">маркетинг</p>
+            </li>
+            <li>
+                <img src="./images/p8.jpg" width="370" alt="ноутбук">
+                <h2 class="title">Growing Business</h2>
+                <p class="text">приложение</p>
+            </li>
+        </ul>
+    </section>
+    <footer class="bcg-section">
+        <h3 class="logo-text"> <span class="logo">Web</span>Studio</h3>
         <address>
-            <p><a href="#">г. Киев, пр-т Леси Украинки, 26</a></p>
+            <p><a class="a-title" href="#">г. Киев, пр-т Леси Украинки, 26</a></p>
             <ul>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+                <li><a class="addres" href="mailto:info@example.com">info@example.com</a></li>
+                <li><a class="addres" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>
